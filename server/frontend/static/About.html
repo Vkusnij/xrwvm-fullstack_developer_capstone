@@ -1,21 +1,26 @@
 <html>
 <head>
-  <!-- Link the style sheet here -->
+  <title>About Us - Best Cars Dealership</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+
+<body style="background: linear-gradient(to bottom, #f4f7fb, #ffffff); min-height: 100vh;">
+
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm" style="background-color: #19d3da; min-height: 1in;">
     <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <h2 style="padding-right: 5%; font-weight: 700; margin-bottom: 0;">Dealerships</h2>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+            <a class="nav-link active" style="font-size: larger; font-weight: 600;" href="/about">About Us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
@@ -24,45 +29,99 @@
       </div>
     </div>
   </nav>
-  
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
+
+  <div class="container" style="margin-top: 4%;">
+    <div class="card border-0 shadow-lg" style="border-radius: 20px; padding: 35px; background-color: #ffffff;">
+      
+      <div class="text-center mb-4" name="about-header">
+        <h1 style="font-weight: 700; color: #1f2d3d;">About Us</h1>
+        <p style="max-width: 950px; margin: 20px auto 0 auto; font-size: 18px; color: #4a5568; line-height: 1.7;">
+          Welcome to <strong>Best Cars Dealership</strong>, your trusted destination for quality vehicles across North America.
+          We are committed to helping our customers find the right car at the right price, whether they are looking for a reliable
+          daily driver, a family SUV, or a premium driving experience. Our team focuses on honest service, transparent communication,
+          and a smooth buying process from the first visit to final delivery.
+        </p>
       </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+
+      <div class="row text-center mb-5" style="margin-top: 30px;">
+        <div class="col-md-4 mb-3">
+          <div class="p-3 shadow-sm" style="background-color: #f8fafc; border-radius: 14px;">
+            <h3 style="color: #19d3da; font-weight: 700;">10,000+</h3>
+            <p style="margin-bottom: 0; color: #4a5568;">Happy customers served</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="p-3 shadow-sm" style="background-color: #f8fafc; border-radius: 14px;">
+            <h3 style="color: #19d3da; font-weight: 700;">50+</h3>
+            <p style="margin-bottom: 0; color: #4a5568;">Trusted dealership partners</p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="p-3 shadow-sm" style="background-color: #f8fafc; border-radius: 14px;">
+            <h3 style="color: #19d3da; font-weight: 700;">24/7</h3>
+            <p style="margin-bottom: 0; color: #4a5568;">Customer support availability</p>
+          </div>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
-        </div>
-      </div>
+      <h3 class="text-center" style="margin-bottom: 30px; font-weight: 700; color: #1f2d3d;">Meet Our Leadership Team</h3>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
+      <div class="row justify-content-center" style="gap: 10px;">
+        
+        <div class="col-md-4 d-flex justify-content-center mb-4">
+          <div class="card border-0 shadow-sm" style="width: 90%; border-radius: 18px; overflow: hidden;">
+            <img class="card-img-top" src="/static/person.png" alt="Emma Carter" style="height: 320px; object-fit: contain; background-color: #f8fafc; padding: 20px;">
+            <div class="card-body">
+              <p class="title text-center" style="background-color: #6f42c1; color: white; padding: 10px; border-radius: 8px; font-size: 22px; font-weight: 600;">
+                Emma Carter
+              </p>
+              <p style="font-weight: 600; color: #1f2d3d; margin-top: 15px;">Chief Executive Officer</p>
+              <p class="card-text" style="color: #4a5568; line-height: 1.6;">
+                Emma leads Best Cars with a strong focus on customer trust, innovation, and long-term growth.
+                She has over 15 years of experience in automotive retail and dealership operations.
+              </p>
+              <p style="margin-bottom: 0; color: #2b6cb0;">emma.carter@bestcars.com</p>
+            </div>
+          </div>
         </div>
+
+        <div class="col-md-4 d-flex justify-content-center mb-4">
+          <div class="card border-0 shadow-sm" style="width: 90%; border-radius: 18px; overflow: hidden;">
+            <img class="card-img-top" src="/static/person.png" alt="David Wilson" style="height: 320px; object-fit: contain; background-color: #f8fafc; padding: 20px;">
+            <div class="card-body">
+              <p class="title text-center" style="background-color: #6f42c1; color: white; padding: 10px; border-radius: 8px; font-size: 22px; font-weight: 600;">
+                David Wilson
+              </p>
+              <p style="font-weight: 600; color: #1f2d3d; margin-top: 15px;">Head of Sales & Customer Experience</p>
+              <p class="card-text" style="color: #4a5568; line-height: 1.6;">
+                David works closely with regional dealerships to improve service quality and create a seamless
+                customer journey, from online browsing to final purchase.
+              </p>
+              <p style="margin-bottom: 0; color: #2b6cb0;">david.wilson@bestcars.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex justify-content-center mb-4">
+          <div class="card border-0 shadow-sm" style="width: 90%; border-radius: 18px; overflow: hidden;">
+            <img class="card-img-top" src="/static/person.png" alt="Sophia Lee" style="height: 320px; object-fit: contain; background-color: #f8fafc; padding: 20px;">
+            <div class="card-body">
+              <p class="title text-center" style="background-color: #6f42c1; color: white; padding: 10px; border-radius: 8px; font-size: 22px; font-weight: 600;">
+                Sophia Lee
+              </p>
+              <p style="font-weight: 600; color: #1f2d3d; margin-top: 15px;">Director of Digital Services</p>
+              <p class="card-text" style="color: #4a5568; line-height: 1.6;">
+                Sophia oversees the company’s digital platform and ensures that customers can easily explore dealerships,
+                compare options, and share their experiences through reviews.
+              </p>
+              <p style="margin-bottom: 0; color: #2b6cb0;">sophia.lee@bestcars.com</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
-    </div>
-    </div>
-    
-</div>
+  </div>
 
+</body>
 </html>
